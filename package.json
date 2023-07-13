@@ -1,0 +1,16 @@
+{
+  "name": "js-ecma",
+  "version": "1.0.0",
+  "description": "Scripts con ejemplos sobre los cambios que implementaron en cada version de ECMAScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "tutorial"
+  ],
+  "author": "Fede Liquin <fede@brokode.ar>",
+  "license": "MIT"
+}
