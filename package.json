@@ -12,5 +12,6 @@
     "tutorial"
   ],
   "author": "Fede Liquin <fede@brokode.ar>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
