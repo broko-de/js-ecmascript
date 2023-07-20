@@ -22,7 +22,7 @@ console.log(coins);
 
 /**
  * spread operator, el operador de propagación consiste en propagar la información de un elemento
- * a otros, por ejemplo lo podemos utilizar en array u objetos. El operador es '...'
+ * a otros, en ES6 fue incorporado para trabajar con arrays. El operador es '...'
  */
 
 let character4 = {name:'Yoshi', coins:40}
@@ -39,7 +39,7 @@ console.log(arrayMario)
 
 /**
  * Parametros rest, lo que nos permite en este caso es empaquetar los parametros que reciba una 
- * funcion en un array u objeto
+ * funcion en un array 
  */
 
 function addCoins(coin,...values){
