@@ -3,11 +3,11 @@
  */
 
 //Antes de ECMAScript6 se podía hacer lo siguiente
-function newCharacter(uId,name,starts,coins){
+function newCharacter(uId,name,stars,coins){
     return {
         uId: uId,
         name:name,
-        starts:starts,
+        stars:stars,
         coins:coins
     }
 }
@@ -16,10 +16,10 @@ console.log(newCharacter(1,'Toad',0,40))
 
 //Con ECMAScript6 podemos hacer lo siguiente, creamos un objeto donde el key-value se genera 
 //a partir de la variable
-function newCharacter2(uId,name,starts,coins){
+function newCharacter2(uId,name,stars,coins){
     return {
         name,
-        starts,
+        stars,
         coins,
         id: uId // de igual manera podemos combinarlo con la anterior forma de hacerlo
     }

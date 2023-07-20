@@ -12,7 +12,7 @@ console.log(character2);
 console.log(characters[2])
 
 //Ejemplo con objetos
-let character3 = {name:'Mario',starts:4,coins:150};
+let character3 = {name:'Mario',stars:4,coins:150};
 // Destructuramos los elementos de un objeto en dos variables con el mismo no nombre de las llaves
 // del objeto.
 let {name, coins} = character3;
@@ -26,10 +26,10 @@ console.log(coins);
  */
 
 let character4 = {name:'Yoshi', coins:40}
-let starts = 2
+let stars = 2
 
 // Creamos un objeto data con los elementos que contiene character4 más otro valores
-let data = { id:1, ...character4,starts} 
+let data = { id:1, ...character4,stars} 
 console.log(data)
 
 // En el siguiente ejemplo se creara un array que contenga como elementos cada caracter
