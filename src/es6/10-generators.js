@@ -25,11 +25,11 @@ const ITEMS = ['Mushroom','Cellular Shopper','Golden Mushroom','Boo Repellant']
 
 
 // definimos una constante a partir de funcion generadora y le pasamos el array de ITEMS
-const it = viewItems(ITEMS);
+const item = viewItems(ITEMS);
 //El método next devuelve un objeto que contiene una propiedad value con cada valor de yield; 
-console.log(it.next().value);
+console.log(item.next().value);
 //Cada vez que se ejecuta next, recuerda el estado donde se habia quedado en la iteración 
 //y muestra el siguiente valor
-console.log(it.next().value);
-console.log(it.next().value);
+console.log(item.next().value);
+console.log(item.next().value);
 
